@@ -54,7 +54,7 @@ isPrime :: Int -> Bool
 isPrime 1 = False
 isPrime 2 = True
 isPrime n
- | length[x | x <- [2..n-1], (n `mod` x) == 0] > 0 = False
+ | length[x | x <- [2..n-1], (n `mod` x) == 0] > 0
  | otherwise = True     
 
 -- Task 06
